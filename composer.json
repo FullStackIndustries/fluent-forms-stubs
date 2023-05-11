@@ -1,0 +1,14 @@
+{
+  "name": "fullstackindustries/fluent-forms-stubs",
+  "description": "Fluent Forms stubs for static analysis.",
+  "keywords": [
+    "fluent forms",
+    "fluent",
+    "forms",
+    "stubs",
+    "static analysis"
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {}
+}
