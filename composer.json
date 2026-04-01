@@ -10,5 +10,10 @@
   ],
   "license": "MIT",
   "minimum-stability": "stable",
-  "require": {}
+  "require-dev": {
+    "php-stubs/generator": "^0.8.6"
+  },
+  "scripts": {
+    "generate": "PLUGIN_DIR=${FLUENTFORM_PLUGIN_DIR:-$HOME'/Local Sites/full-stack-industries/app/public/wp-content/plugins/fluentform'} && generate-stubs \"$PLUGIN_DIR/app\" \"$PLUGIN_DIR/vendor/wpfluent\" \"$PLUGIN_DIR/fluentform.php\" \"$PLUGIN_DIR/boot\" --out=fluent-forms-stubs.php --force"
+  }
 }
