@@ -10,11 +10,6 @@
   ],
   "license": "MIT",
   "minimum-stability": "stable",
-  "autoload": {
-    "files": [
-      "fluent-forms-stubs.php"
-    ]
-  },
   "require-dev": {
     "php-stubs/generator": "^0.8.6"
   },
