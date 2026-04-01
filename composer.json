@@ -19,6 +19,6 @@
     "php-stubs/generator": "^0.8.6"
   },
   "scripts": {
-    "generate": "PLUGIN_DIR=${FLUENTFORM_PLUGIN_DIR:-$HOME'/Local Sites/full-stack-industries/app/public/wp-content/plugins/fluentform'} && generate-stubs \"$PLUGIN_DIR/app\" \"$PLUGIN_DIR/vendor/wpfluent\" \"$PLUGIN_DIR/fluentform.php\" \"$PLUGIN_DIR/boot\" --out=fluent-forms-stubs.php --force"
+    "generate": "PLUGIN_DIR=${FLUENTFORM_PLUGIN_DIR:-$HOME'/Local Sites/full-stack-industries/app/public/wp-content/plugins/fluentform'} && generate-stubs \"$PLUGIN_DIR/app/Services/FormBuilder\" \"$PLUGIN_DIR/app/Models\" \"$PLUGIN_DIR/app/Helpers\" \"$PLUGIN_DIR/vendor/wpfluent/framework/src/WPFluent/Support/Arr.php\" \"$PLUGIN_DIR/vendor/wpfluent/framework/src/WPFluent/Support/Collection.php\" \"$PLUGIN_DIR/vendor/wpfluent/framework/src/WPFluent/Support/MacroableTrait.php\" \"$PLUGIN_DIR/vendor/wpfluent/framework/src/WPFluent/Support/ArrayableInterface.php\" \"$PLUGIN_DIR/vendor/wpfluent/framework/src/WPFluent/Support/JsonableInterface.php\" \"$PLUGIN_DIR/vendor/wpfluent/framework/src/WPFluent/Support/Enumerable.php\" \"$PLUGIN_DIR/vendor/wpfluent/framework/src/WPFluent/Support/EnumeratesValues.php\" \"$PLUGIN_DIR/vendor/wpfluent/framework/src/WPFluent/Support/HigherOrderCollectionProxy.php\" \"$PLUGIN_DIR/app/Compat/ArrayHelper.php\" --out=fluent-forms-stubs.php --force"
   }
 }
